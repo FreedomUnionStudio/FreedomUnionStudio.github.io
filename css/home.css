@@ -630,6 +630,7 @@ a.button.bt2 {
    text-align: center;
    vertical-align: top;
    margin-bottom: 20px;
+   box-shadow: 1px 1px 11px 0 rgba(53, 66, 70, .2);
    
    box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -640,7 +641,7 @@ a.button.bt2 {
    display: block;
    width: 100%;
    height: auto;
-   border-radius: 3px;
+   border-radius: 6px;
    -webkit-transition: all .5s ease;
    /* Safari and Chrome */
    -moz-transition: all .5s ease;
