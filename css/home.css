@@ -630,6 +630,7 @@ a.button.bt2 {
    text-align: center;
    vertical-align: top;
    margin-bottom: 20px;
+   border-radius: 6px;
    box-shadow: 1px 1px 11px 0 rgba(53, 66, 70, .2);
    
    box-sizing: border-box;
