@@ -344,7 +344,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-body .wrap-body {}
+body .wrap-body {
+background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
 
 
 /* ---------------------------------------------------------------------------- */
