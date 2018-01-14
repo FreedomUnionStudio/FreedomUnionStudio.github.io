@@ -715,6 +715,7 @@ a.button.bt2 {
 .item-container:hover .item-caption {
 background-image: linear-gradient(120deg, #0acffe 0%, #495aff 100%);
   opacity: 0.85;
+  border-radius: 6px;
 
 
 }
