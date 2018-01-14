@@ -1,4 +1,4 @@
-/*
+;/*
 m-33.com | m-33 template style
 Author URI: http://www.m-33.com/
 */
@@ -633,7 +633,7 @@ a.button.bt2 {
    vertical-align: top;
    margin-bottom: 20px;
    border-radius: 6px;
-   box-shadow: 1px 1px 11px 0 rgba(53, 66, 70, .2);
+  
    
    box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -654,6 +654,7 @@ a.button.bt2 {
    -o-transition: all .5s ease;
    /* Opera */
    transition: all .5s ease;
+
 }
 
 .item-container .item-caption {
@@ -693,10 +694,10 @@ a.button.bt2 {
 
 .item-container .item-caption h3,
 .item-container .item-caption span {
-   display: block;
+   display: bold;
    text-align: center;
    text-transform: uppercase;
-   color: #444;
+   color: #ffff;
    display: none;
 }
 
@@ -712,14 +713,19 @@ a.button.bt2 {
 }
 
 .item-container:hover .item-caption {
+background-image: linear-gradient(120deg, #0acffe 0%, #495aff 100%);
+  opacity: 0.85;
 
-  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-  opacity: 0.90;
+
 }
 
 .item-container:hover .item-caption h3,
 .item-container:hover .item-caption span {
    display: block;
+}
+
+.item-container:hover {
+ box-shadow: 1px 2px 32px 0 rgba(53, 66, 70, .4);
 }
 
 
