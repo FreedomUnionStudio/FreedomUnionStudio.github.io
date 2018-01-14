@@ -645,7 +645,7 @@ a.button.bt2 {
    display: block;
    width: 100%;
    height: auto;
-   border-radius: 6px;
+   
    -webkit-transition: all .5s ease;
    /* Safari and Chrome */
    -moz-transition: all .5s ease;
@@ -676,6 +676,7 @@ a.button.bt2 {
    -o-transition: all .5s ease;
    /* Opera */
    transition: all .5s ease;
+   border-radius: 6px;
 }
 
 .item-caption-inner {
@@ -690,6 +691,7 @@ a.button.bt2 {
    height: 100%;
    vertical-align: middle;
     font-family: Montserrat, sans-serif;
+
 }
 
 .item-container .item-caption h3,
@@ -715,6 +717,7 @@ a.button.bt2 {
 .item-container:hover .item-caption {
    background-image: linear-gradient(120deg, #0acffe 0%, #495aff 100%);
    opacity: 0.85;
+
 }
 
 .item-container:hover .item-caption h3,
@@ -724,6 +727,7 @@ a.button.bt2 {
 
 .item-container:hover {
  box-shadow: 1px 1px 40px 3px rgba(36, 80, 93, .4);
+
 }
 
 /* ---------------------------------------------------------------------------- */
