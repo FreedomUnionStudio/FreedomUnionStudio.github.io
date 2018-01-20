@@ -233,11 +233,18 @@ img {
 a {
   
    text-decoration: none;
-    color: #999;
+   
     line-height: 1.4;
     font-size: 26px;
-    font-weight: 300;
+   
     font-family: "Roboto", sans-serif;
+    
+        font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -345,7 +352,7 @@ body {
 }
 
 body .wrap-body {
-background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+background-color: #f2f6f6;
 
 }
 
@@ -358,7 +365,9 @@ background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 
 /* ---------------------------------------------------------------------------- */
 
-header {}
+header {
+    background-color: white;
+}
 
 header .wrap-header {}
 
@@ -417,7 +426,7 @@ header .logo img {
 #main-content {}
 
 #main-content .wrap-content {
-   padding: 30px 10px;
+   padding: 60px 10px;
    position: relative;
 }
 
@@ -465,13 +474,13 @@ article .art-content {}
 /* ---------------------------------------------------------------------------- */
 
 footer {
-   margin-top: 40px;
+    background-color: white;
 }
 
 footer .wrap-footer {
    color: #666;
    font-size: 13px;
-   padding: 40px 20px;
+   padding: 80px 20px;
 }
 
 footer .wrap-footer h3 {
@@ -633,8 +642,7 @@ a.button.bt2 {
    text-align: center;
    vertical-align: top;
    margin-bottom: 20px;
-   border-radius: 6px;
-   box-shadow: 1px 1px 11px 0 rgba(53, 66, 70, .2);
+  
    
    box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -676,13 +684,14 @@ a.button.bt2 {
    -o-transition: all .5s ease;
    /* Opera */
    transition: all .5s ease;
-   border-radius: 6px;
+  
 }
 
 .item-caption-inner {
    display: table;
    width: 100%;
    height: 100%;
+   
 }
 
 .item-caption-inner1 {
@@ -691,7 +700,7 @@ a.button.bt2 {
    height: 100%;
    vertical-align: middle;
     font-family: Montserrat, sans-serif;
-
+ 
 }
 
 .item-container .item-caption h3,
@@ -715,10 +724,38 @@ a.button.bt2 {
 }
 
 .item-container:hover .item-caption {
-   background-image: linear-gradient(120deg, #0acffe 0%, #495aff 100%);
+   background-image: linear-gradient(120deg, #04befe 0%, #4481eb 100%);
    opacity: 0.85;
-
 }
+
+.item-container:hover  .AA {
+background-image: linear-gradient(120deg, #2af598 0%, #009efd 100%);
+    opacity: 0.85;
+}
+
+.item-container:hover  .BB {
+background-image: linear-gradient(120deg, #b721ff 0%, #21d4fd 100%);
+    opacity: 0.85;
+}
+
+
+
+
+.item-container:hover  .DD {
+background-image: linear-gradient(120deg, #b721ff 0%, #21d4fd 100%);
+    opacity: 0.85;  
+}
+
+
+.item-container:hover  .EE {
+background-image: linear-gradient(120deg, #c471f5 0%, #fa71cd 100%);   opacity: 0.85;  
+}
+
+.item-container:hover  .FF {
+background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity: 0.85;  
+}
+
+
 
 .item-container:hover .item-caption h3,
 .item-container:hover .item-caption span {
@@ -726,8 +763,7 @@ a.button.bt2 {
 }
 
 .item-container:hover {
- box-shadow: 1px 1px 40px 3px rgba(36, 80, 93, .4);
-
+ box-shadow: 1px 1px 40px 3px #FFF;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -1156,7 +1192,7 @@ Author URI: http://www.m-33.com/
 /* ------------------Grid System--------------- */
 
 .grid {
-   width: 1200px;
+   width: 1040px;
    position: relative;
    margin: 0 auto;
    padding: 0px;
@@ -1236,7 +1272,7 @@ Author URI: http://www.m-33.com/
 
 .grid .col-1-3,
 .grid .col-1-3-fixed {
-   width: 33.33%;
+   width: 50%;
 }
 
 .grid .col-2-3,
