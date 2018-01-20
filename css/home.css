@@ -726,8 +726,7 @@ a.button.bt2 {
 }
 
 .item-container:hover .item-caption {
-   background-image: linear-gradient(120deg, #04befe 0%, #4481eb 100%);
-   opacity: 0.85;
+background-image: linear-gradient(120deg, #00f2fe 0%, #4facfe 100%);   opacity: 0.85;
 }
 
 .item-container:hover  .AA {
