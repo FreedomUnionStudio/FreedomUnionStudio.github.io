@@ -1455,12 +1455,12 @@ Author URI: http://www.m-33.com/
 
 #comment{
   
- margin: 60px auto;
+ margin: 50px auto;
     padding-bottom: 0px;
     max-width: 1000px;
-    color: #6190E8;
-  
- 
-   
     
+    font-family: "PingFang SC", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+    font-size: 12px;
     }
+
+
