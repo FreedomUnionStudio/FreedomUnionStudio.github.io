@@ -234,7 +234,7 @@ a {
   
    text-decoration: none;
    
-    line-height: 1.4;
+    line-height: 1.8;
    
     font-family: "Roboto", sans-serif;
     
@@ -243,6 +243,7 @@ a {
     text-decoration: none;
     color: ghostwhite;
     font-weight: 400;
+
  
 }
 
@@ -273,7 +274,7 @@ p {
 }
 
 .t-center {
-   text-align: center;
+   text-align: left;
 }
 
 .t-left {
@@ -343,7 +344,7 @@ body {
 }
 
 body {
-   background: #fff;
+   background: #f2f6f6;
    color: #666;
    font: 14px/25px Arial, Helvetica, sans-serif;
    font-family: Montserrat, sans-serif;
@@ -481,7 +482,7 @@ footer {
 footer .wrap-footer {
    color: white;
    font-size: 12px;
-   padding: 60px 20px;
+   padding: 50px 20px;
 }
 
 footer .wrap-footer h3 {
@@ -1236,6 +1237,7 @@ Author URI: http://www.m-33.com/
 
 .grid .row {
    zoom: 1;
+    text-align: left;
 }
 
 .grid .wrap-col {
@@ -1449,3 +1451,16 @@ Author URI: http://www.m-33.com/
       margin-left: 0;
    }
 }
+
+
+#comment{
+  
+ margin: 60px auto;
+    padding-bottom: 0px;
+    max-width: 1000px;
+    color: #6190E8;
+  
+ 
+   
+    
+    }
