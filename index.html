@@ -374,19 +374,18 @@
     
       <!--////////////////////////////////////comment-->
     <div id="comment"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
-  id: '页面 ID', // 可选。默认为 location.href
-  owner: 'wenjundesign',
+var gitalk = new Gitalk({
+  clientID: '113ae88aa521f515fbe4',
+  clientSecret: 'ca00b0fdc13be064ccac1342b4ccf82a9e174eaf',
   repo: 'wenjundesign',
-  oauth: {
-    client_id: 'ed1ed2e2b5182fb880a5',
-    client_secret: '5f5b900df64bf7b39da5395cb2cf5b12c9e0be85',
-  },
+  owner: 'wenjundesign',
+  admin: ['wenjundesign'],
 })
-gitment.render('comment')
+
+gitalk.render('comment')
 </script>
 
        
