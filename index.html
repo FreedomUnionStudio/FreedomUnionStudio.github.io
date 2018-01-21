@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>[ Wenjun ] x [ Design ] </title>
-  
-  
+    
+   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+
   
       <link rel="stylesheet" href="css/home.css">
 <link rel="shortcut icon" href="https://cdn.dribbble.com/users/328251/avatars/small/47c01d2be02ec5a100dc2819f5b771f3.png?1494031954"/>
@@ -360,8 +362,35 @@
            
          </div>
       </section>
+       
+   
 
-      <!--////////////////////////////////////Footer-->
+      
+       
+               
+  
+
+   </div>
+    
+      <!--////////////////////////////////////comment-->
+    <div id="comment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '页面 ID', // 可选。默认为 location.href
+  owner: 'wenjundesign',
+  repo: 'wenjundesign',
+  oauth: {
+    client_id: 'ed1ed2e2b5182fb880a5',
+    client_secret: '5f5b900df64bf7b39da5395cb2cf5b12c9e0be85',
+  },
+})
+gitment.render('comment')
+</script>
+
+       
+ <!--////////////////////////////////////Footer-->
       
       <footer>
          <div class="grid">
@@ -373,7 +402,12 @@
                    
                     
                 
-                 <a>©2017-2018&nbsp;<font color="deepskyblue">WENJUN.</font></a>
+                 <a>©2018&nbsp;Wenjun·Design.</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <a href='index.html'><font color="deepskyblue">Home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <a href="https://dribbble.com/wenjunliao"><font color="deepskyblue">Dribbble</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <a href='https://www.behance.net/wenjunliao'><font color="deepskyblue">Behance</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href='mailto:wingemliao@gmail.com'><font color="deepskyblue">Contact</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
            
                 
                   
@@ -382,11 +416,9 @@
                </div>
             </div>
          </div>
-     </footer>
-
-   </div>
+     </footer>      
+        <!--////////////////////////////////////comment-->
 </body>
-
 </html>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script src="js/index.js"></script>
@@ -394,6 +426,8 @@
      <audio autoplay="autoplay">
   <source src="sounds/mp3/hello2.mp3" />
 </audio>
+   
+  
 
 </body>
 </html>
