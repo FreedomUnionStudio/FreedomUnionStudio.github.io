@@ -242,9 +242,9 @@ a {
         font-size: 12px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #555;
-    font-weight: 300;
-    text-transform: uppercase;
+    color: ghostwhite;
+    font-weight: 400;
+ 
 }
 
 a:hover {
@@ -352,7 +352,7 @@ body {
 }
 
 body .wrap-body {
-background-color: #f2f6f6;
+background-color: #062331;
 
 }
 
@@ -366,7 +366,7 @@ background-color: #f2f6f6;
 /* ---------------------------------------------------------------------------- */
 
 header {
-    background-color: white;
+    background-color: #05202c;
 }
 
 header .wrap-header {}
@@ -409,14 +409,14 @@ header .logo img {
     font-size: 58px;
     font-weight: 200;
     font-family: "Roboto", sans-serif;
-    color:#222
+    color:deepskyblue;
 }
 
 .header span {
-   color: #999;
+   color: deepskyblue;
    line-height: 1.4;
    font-size: 26px;
-   font-weight: 200;
+   font-weight: 400;
    font-family: "Roboto", sans-serif;
 }
 
@@ -476,18 +476,18 @@ article .art-content {}
 /* ---------------------------------------------------------------------------- */
 
 footer {
-    background-color: white;
+    background-color: #05202c;
 }
 
 footer .wrap-footer {
-   color: #666;
+   color: white;
    font-size: 13px;
    padding: 80px 20px;
 }
 
 footer .wrap-footer h3 {
    margin-bottom: 10px;
-    color: #999;
+    color: white;
     line-height: 1;
     font-size: 24px;
     font-weight: 300;
@@ -764,7 +764,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
 }
 
 .item-container:hover {
- box-shadow: 1px 1px 40px 3px #FFF;
+ box-shadow: 1px 1px 40px 3px #062331;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -840,13 +840,13 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
    font-size: 12px;
    letter-spacing: 1px;
    text-decoration: none;
-   color: #666;
-   font-weight: 300;
+   color: ghostwhite;
+   font-weight: 400;
    text-transform: uppercase;
 }
 
 #cssmenu > ul > li:hover > a {
-   color: #999;
+   color: deepskyblue;
 }
 
 #cssmenu > ul > li.has-sub > a {
@@ -932,14 +932,14 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
 }
 
 #cssmenu ul ul li a {
-   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-   padding: 11px 15px;
+   border-bottom: 1px solid rgba(150, 150, 150, 0.07);
+   padding: 11px 18px;
    width: 170px;
    font-size: 12px;
    text-decoration: none;
    color: #dddddd;
-   font-weight: 300;
-   background: #3B3B3B;
+   font-weight: 400;
+   background: #05202c;
 }
 
 #cssmenu ul ul li:last-child > a,
@@ -949,7 +949,7 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
 
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-   color: #ffffff;
+   color: deepskyblue;
 }
 
 #cssmenu ul ul li.has-sub > a:after {
@@ -1003,7 +1003,7 @@ only screen and (min-resolution: 192dpi) and (max-width: 1024px),
 only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    #cssmenu {
       width: 100%;
-      background: #3b3b3b;
+      background: #05202c;
       margin: 0 0 50px;
    }
    #cssmenu ul {
@@ -1036,12 +1036,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
       padding-left: 35px;
    }
    #cssmenu ul ul li a {
-      color: #dddddd;
+      color: #666;
       background: none;
    }
    #cssmenu ul ul li:hover > a,
    #cssmenu ul ul li.active > a {
-      color: #ffffff;
+      color: deepskyblue;
    }
    #cssmenu ul ul,
    #cssmenu ul ul ul,
@@ -1122,7 +1122,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
       cursor: pointer;
    }
    #cssmenu .submenu-button.submenu-opened {
-      background: #262626;
+      background: #062331;
    }
    #cssmenu ul ul .submenu-button {
       height: 34px;
