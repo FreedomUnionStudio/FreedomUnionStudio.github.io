@@ -1012,7 +1012,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
    #cssmenu {
       width: 100%;
       background: #05202c;
-      margin: 0 0 50px;
+      margin: 0 0 2px;
    }
     
     
