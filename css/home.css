@@ -1465,9 +1465,9 @@ Author URI: http://www.m-33.com/
 #comment{
   
  margin: 50px auto;
+    padding: 0 20px;
     padding-bottom: 0px;
-    max-width: 1000px;
-    
+    max-width: 1040px;
     font-family: "PingFang SC", Helvetica, "Microsoft YaHei", Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
