@@ -373,7 +373,7 @@ header .wrap-header {}
 
 header .logo img {
    display: inline-block;
-   margin: 14px -5PX auto;
+   margin: 14px -5PX 14px 0;
    padding: 0 0 0 24px;
 }
 
