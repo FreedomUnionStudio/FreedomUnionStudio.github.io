@@ -819,9 +819,6 @@ background-image: linear-gradient(120deg,  #fda085 0%, #f6d365 100%);    opacity
    margin: 10px 10px;
 }
 
-#cssmenu .active {
-   color: deepskyblue;
-}
 
 #cssmenu > ul > li {
    float: left;
