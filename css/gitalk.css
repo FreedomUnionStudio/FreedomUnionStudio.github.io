@@ -1119,8 +1119,9 @@
 }
 .gt-container .gt-comment-username {
   font-weight: 500;
-  color: deepskyblue;
-  text-decoration: none;
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 13px;
 }
 .gt-container .gt-comment-username:hover {
   text-decoration: underline;
