@@ -372,8 +372,8 @@ header {
 header .wrap-header {}
 
 header .logo img {
-   margin: 15px -5PX 0px;
-   padding: 0 0 14px 24px;
+   margin: 15px auto;
+   
 }
 
 @media all and (max-width: 768px) {
