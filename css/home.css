@@ -373,7 +373,7 @@ header .wrap-header {}
 
 header .logo img {
    margin: 15px auto;
-   
+   margin-left: 20px;
 }
 
 @media all and (max-width: 768px) {
