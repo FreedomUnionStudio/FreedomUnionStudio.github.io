@@ -748,6 +748,11 @@ a.button.bt2 {
 }
 
 .item-container:hover .item-caption {
+   opacity: 1;
+
+}
+
+.item-container:hover  .CC {
 background-image: linear-gradient(120deg,  #00f2fe 0%, #4facfe 100%);  opacity: 0.85;
 }
 
@@ -767,11 +772,7 @@ background-image: linear-gradient(120deg, #b721ff 0%, #21d4fd 100%);
     opacity: 0.85;
 }
 
-.item-container:hover .BBB {
-background-image: linear-gradient(120deg, #b721ff 0%, #21d4fd 100% );
-    opacity: 0.85;
-    
-}
+
 
 
 
